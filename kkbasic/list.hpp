@@ -1,7 +1,12 @@
-/*
- *  inspired from redis adlist.{h,c} and rtmpd(version 781)
- *
+/*  
+ *  @file     list.hpp  
+ *  @author   kaka_ace <xiang.ace@gmail.com>
+ *  @date     Mon Aug 18  01:24:00 2014
+ *  @brief    list with template 
+ *            inspired from redis adlist.{h,c} and rtmpd(version 781)
  */
+
+
 #ifndef KKBASIC_LIST_H
 #define KKBASIC_LIST_H 
 
@@ -131,5 +136,5 @@ void List<T>::pop_list_(bool positive) {
     size_--;
 }
 
-}
+} // namespace kkbasic
 #endif /* KKBASIC_LIST_H */

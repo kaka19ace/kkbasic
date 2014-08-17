@@ -1,3 +1,10 @@
+/*  
+ *  @file     kkbasic/stack.hpp  
+ *  @author   kaka_ace <xiang.ace@gmail.com>
+ *  @date     Mon Aug 18 01:24:00 2014
+ *  @brief    stack with template 
+ *            using kkbasic/list.hpp 
+ */
 #ifndef KKBASIC_STACK_H
 #define KKBASIC_STACK_H
 
@@ -45,6 +52,6 @@ private:
 };
 
 
-}
+} // namespace 
 
 #endif // KKBASIC_STACK_H
