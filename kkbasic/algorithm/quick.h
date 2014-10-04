@@ -1,13 +1,14 @@
 /*  
- *  @file     kkbasic/algorithm/quick.hpp  
+ *  @file     kkbasic/algorithm/quick.h
  *  @author   kaka_ace <xiang.ace@gmail.com>
  *  @date     Mon Aug 18 01:29:00 2014
  *  @brief    quick sort cpp with template 
  *            when sort list length is less than 10, i used insert sort 
  */
 
-#ifdef KKBASIC_ALGORITHM_QUICK_H
 
+#ifndef KKBASIC_ALGORITHM_QUICK_H
+#define KKBASIC_ALGORITHM_QUICK_H
 namespace kkbasic {
 namespace algorithm {
 // insert sort (shell sort)

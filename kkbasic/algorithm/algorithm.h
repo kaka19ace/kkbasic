@@ -6,7 +6,8 @@
  *            
  */
 
-#ifdef KKBASIC_ALGORITHM_H
-#include <kkbasic/algorithm/quick.hpp>
+#ifndef KKBASIC_ALGORITHM_H
+#define KKBASIC_ALGORITHM_H
+#include <kkbasic/algorithm/quick.h>
 
 #endif // KKBASIC_ALGORITHM_H

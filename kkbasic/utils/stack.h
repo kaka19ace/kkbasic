@@ -1,16 +1,19 @@
 /*  
- *  @file     kkbasic/stack.hpp  
+ *  @file     stack.h
  *  @author   kaka_ace <xiang.ace@gmail.com>
  *  @date     Mon Aug 18 01:24:00 2014
  *  @brief    stack with template 
- *            using kkbasic/list.hpp 
+ *            using kkbasic/list.h
  */
+
+
 #ifndef KKBASIC_STACK_H
 #define KKBASIC_STACK_H
 
-#include "kkbasic/list.hpp"
+#include <kkbasic/utils/list.h>
 
 namespace kkbasic {
+namespace utils { 
 
 template <typename T>
 struct Stack {
@@ -52,6 +55,7 @@ private:
 };
 
 
-} // namespace 
+} // namespace utils 
+} // namespace kkbasic 
 
 #endif // KKBASIC_STACK_H

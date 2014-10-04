@@ -1,5 +1,5 @@
 /*  
- *  @file     list.hpp  
+ *  @file     list.h
  *  @author   kaka_ace <xiang.ace@gmail.com>
  *  @date     Mon Aug 18  01:24:00 2014
  *  @brief    list with template 
@@ -22,6 +22,7 @@
 #include <stdexcept>
 
 namespace kkbasic { 
+namespace utils { 
 
 template<typename T>
 struct ListNode {
@@ -136,5 +137,6 @@ void List<T>::pop_list_(bool positive) {
     size_--;
 }
 
+} // namespace utils  
 } // namespace kkbasic
 #endif /* KKBASIC_LIST_H */
